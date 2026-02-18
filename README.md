@@ -13,3 +13,4 @@ It includes:
 - Observability with Log Analytics
 
 The goal is to showcase production-ready DevOps engineering practices, including automated deployments, performance optimization, and secure pipeline design.
+
