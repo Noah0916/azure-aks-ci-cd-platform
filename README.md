@@ -1,16 +1,32 @@
-# Azure AKS CI/CD Platform
+\# Azure AKS CI/CD Platform
 
-This project demonstrates the design and optimization of CI/CD pipelines on Microsoft Azure using Docker and Kubernetes (AKS).
 
-It includes:
-- GitHub Actions CI/CD pipelines
-- Docker multi-stage builds
-- Azure Container Registry (ACR)
-- Azure Kubernetes Service (AKS)
-- Horizontal Pod Autoscaling (HPA)
-- Rolling updates and health probes
-- Infrastructure as Code (Terraform/Bicep)
-- Observability with Log Analytics
 
-The goal is to showcase production-ready DevOps engineering practices, including automated deployments, performance optimization, and secure pipeline design.
+This project demonstrates a cloud-native workflow using:
+
+
+
+\- FastAPI application
+
+\- Docker container
+
+\- GitHub Actions CI pipeline
+
+\- Kubernetes deployment
+
+\- Terraform infrastructure on Azure
+
+
+
+\## Project structure
+
+
+
+app/ → FastAPI code  
+
+k8s/ → Kubernetes manifests  
+
+infra/terraform/ → Terraform infrastructure  
+
+.github/ → CI pipeline
 
