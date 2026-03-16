@@ -46,3 +46,4 @@ Possible next improvements:
 - Push images to Azure Container Registry
 - Add monitoring (Prometheus/Grafana)
 - Add security scanning to the CI pipeline
+## Architecture Diagram
